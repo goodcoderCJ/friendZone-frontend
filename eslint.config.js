@@ -10,6 +10,7 @@ export default [
     files: ['**/*.{js,jsx}'],
     languageOptions: {
       ecmaVersion: 2020,
+      "vitest-globals/env": true,
       globals: globals.browser,
       parserOptions: {
         ecmaVersion: 'latest',
@@ -22,6 +23,7 @@ export default [
       react,
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
+      'plugin:vitest-globals/recommended': globals,
     },
     rules: {
       ...js.configs.recommended.rules,

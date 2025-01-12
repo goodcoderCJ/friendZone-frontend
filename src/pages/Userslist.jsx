@@ -33,7 +33,7 @@ const Userslist = () => {
     <div className="py-[1rem] px-[3rem] shadow-md">
       {isLoading && <Loader />}
 
-      {isSuccess && <h3 className="text-2xl mt-[1rem]">All Users</h3>}
+      <h3 className="text-2xl mt-[1rem]" data-testid="userslist">All Users</h3>
       <div className="my-[1.5rem]">
         {/* show only when no user has been created */}
         {allUsers.length === 0 && (<><p className="text-xl text-red-700 font-bold">No user created yet</p></>)}

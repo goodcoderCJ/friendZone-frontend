@@ -22,7 +22,7 @@ const Menubar = () => {
   };
 
   return (
-    <div className="menu bg-blue-800  py-[1rem] ">
+    <div className="menu bg-blue-700  py-[1rem] ">
       <div className="wrapper mx-[3rem] flex sm:gap-3 md:gap-3 items-center justify-between sm:justify-normal md:justify-normal">
         <div className="logo text-white">
           <Link to="/" className=" flex gap-1 items-center">

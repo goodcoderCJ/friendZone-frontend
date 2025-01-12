@@ -94,7 +94,7 @@ const Signup = () => {
         <div className="btn-container flex justify-center items-center mt-[2rem]">
           <button
             type="submit"
-            className="rounded-[5px] bg-blue-800 text-white py-[0.5rem] px-[1rem]"
+            className="rounded-[5px] bg-blue-700 text-white py-[0.5rem] px-[1rem] flex-1 sm:flex-grow-0 md:flex-grow-0"
           >
             Signup
           </button>

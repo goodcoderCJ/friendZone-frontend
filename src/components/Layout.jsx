@@ -8,7 +8,7 @@ const Layout = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Menubar />
-      <div className="flex-1">
+      <div className="flex-1 py-[1rem]">
         <Outlet />
       </div>
       <Footer/>
