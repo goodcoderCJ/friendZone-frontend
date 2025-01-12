@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const baseUrl = "http://localhost:8000/api/users";
-const authBaseUrl = "http://localhost:8000/api/auth";
+const baseUrl = "https://friendzone-backend-5l78.onrender.com/api/users";
+const authBaseUrl = "https://friendzone-backend-5l78.onrender.com/api/auth";
 
 //fetching the backend api for login API
 const signIn = async (userData) => {

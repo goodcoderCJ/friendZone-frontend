@@ -39,7 +39,7 @@ try{
     }
     
 }
-const response = await axios.patch(`http://localhost:8000/api/users/${userId}`, userData ,config);
+const response = await axios.patch(`https://friendzone-backend-5l78.onrender.com/api/users/${userId}`, userData ,config);
  
 if(response.data){
   navigate(`/user/${userId}`);
